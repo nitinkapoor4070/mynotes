@@ -1,0 +1,36 @@
+#navbar{
+    background-color: #e0a173;
+}
+
+#name {
+    font-size: 4vw;
+    color: #000000;
+    font-family: 'Rampart One', cursive;
+}
+
+
+#name:hover{
+    color: blue;
+}
+#search{
+    color: black;
+    background-color: grey;
+    border: black;
+    font-size: 1.5vw;
+}
+#search:hover{
+    color: blue;
+
+}
+#heading{
+    font-size: 6vw;
+    padding: 1vw 0;
+}
+#heading2{
+    font-size: 2.5vw;
+}
+
+#heading3{
+    font-size: 4vw;
+    padding: 0.7vw 0vw 0 0 ;
+}
