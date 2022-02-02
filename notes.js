@@ -16,6 +16,13 @@ addBtn.addEventListener("click", function(e) {
     notesObj = JSON.parse(notes);
      notesObj2 = JSON.parse(notes2);
   }
+if (notes2 == null) {
+    notesObj = [];
+ notesObj2 = [];
+  } else {
+    notesObj = JSON.parse(notes);
+     notesObj2 = JSON.parse(notes2);
+  }
 
   notesObj.push(addTxt.value);
   notesObj2.push(addTxtTitle.value);
@@ -24,7 +31,7 @@ addBtn.addEventListener("click", function(e) {
   addTxt.value = "";
   addTxtTitle.value = "";
 //   console.log(notesObj);
-console.log(notesObj2);
+// console.log(notesObj2);
 
   showNotes();
 });
